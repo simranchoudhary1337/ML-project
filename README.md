@@ -94,9 +94,12 @@ Visualizations:
 ![Actual vs Predicted Value](images/ActualVsPredicted.png)
 <br>
 
--Actual vs. Predicted Plot → Most points near diagonal = good predictions.<br>
+-Actual vs. Predicted Plot → Most points near diagonal = **good predictions**.<br>
 
--Residuals Plot → Errors scattered randomly = unbiased model.
+
+![Residuals Plot](images/residualplot.png)
+<br>
+-Residuals Plot → Errors scattered randomly = **unbiased model.**
 
 ---
 <h2><a class="anchor" id="Actual-vs-Predicted-table"></a>Actual vs Predicted table</h2>
