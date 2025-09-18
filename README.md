@@ -46,7 +46,7 @@ This helps demonstrate how basic exam data can be used for insights and predicti
 **Feature Engineering**
 -To enhance the analysis, two new columns were created: total_score and average, which represent the combined and average scores of the three subjects.
 
-Key Findings and Insights
+Key Findings and Insights<br>
 **Score Distribution:**
 -Mean scores (math, reading, and writing) are very similar, ranging from 66 to 69. However, the minimum scores vary(math-0, writing-10, and reading-17).
 
@@ -62,7 +62,7 @@ Conversely, students who scored less than 20 in math (4 students) than in readin
 <h2><a class="anchor" id="Model-Selection"></a>Model Selection</h2>
 Model Selection & Training
 
-->Data Preparation
+->Data Preparation<br>
    -Prepared the data by separating the features (X) from the target variable (y), which is the math_score. 
    -The categorical features are then processed using OneHotEncoder, while the numerical features are scaled using StandardScaler. 
    -The data is then split into training and testing sets, with 80% for training and 20% for testing.
@@ -70,16 +70,16 @@ Model Selection & Training
 1. **Model Comparison:**
 Nine different regression models were trained and evaluated on both the training and testing datasets.The models were compared based on their R2 Score on the test set.
 
-Model Name              R2_Score
-Ridge	                    0.880593
-Linear Regression	        0.880433
-AdaBoost Regressor	      0.852212
-Random Forest Regressor 	0.851932
+Model Name----------------R2_Score<br>
+Ridge---------------------0.880593<br>
+Linear Regression---------0.880433<br>
+AdaBoost Regressor--------0.852212<br>
+Random Forest Regressor---0.851932<br>
 ...                       ...
 
--Found Linear Regression worked best with 0.88 R2_score.
+-Found **Linear Regression** worked best with **0.88 R2_score.**
 
-2.**Model Evaluation:**
+2. **Model Evaluation:**<br>
 -Measured accuracy using R², MAE, RMSE.
 
 **Linear Regression**
@@ -90,7 +90,7 @@ Random Forest Regressor 	0.851932
 
 Visualizations:
 
--Actual vs. Predicted Plot → Most points near diagonal = good predictions.
+-Actual vs. Predicted Plot → Most points near diagonal = good predictions.<br>
 -Residuals Plot → Errors scattered randomly = unbiased model.
 
 
@@ -103,22 +103,6 @@ Visualizations:
 -Predicted score
 -Difference (error)
 
-
-Actual_Value	Predicted_Value	      Difference
-
-91	          76.387970	            14.612030
-53	          58.885970	            -5.885970
-80	          76.990265	             3.009735
-74	          76.851804	            -2.851804
-84	          87.627378	            -3.627378
-...	...     	...	...
-52	          43.409149	             8.590851
-62	          62.152214	            -0.152214
-74	          67.888395            	 6.111605
-65	          67.022287	            -2.022287
-61	          62.345132	            -1.345132
-
-
 ---
 <h2><a class="anchor" id="conclusion"></a>Conclusion"</h2>
 
@@ -126,12 +110,12 @@ Actual_Value	Predicted_Value	      Difference
 
 -Our analysis showed that math, reading, and writing scores are strongly correlated, and gender differences exist in subject-wise performance i.e. female students tended to excel in reading and writing, while male students performed slightly better in math.. 
 
-**Value:**
+**Value:**<br>
       -This project highlights how educational institutions can leverage exam data to understand student strengths and weaknesses and design targeted interventions.
       -Schools can use this to identify at-risk students and provide timely help.
 
-Future Work:
--Can Collect more features (attendance, sleep patterns, socio-economic factors).
+Future Work:<br>
+-Can Collect more features (attendance, sleep patterns, socio-economic factors).<br>
 -Try advanced models (Random Forest, Gradient Boosting).
 
 ---
