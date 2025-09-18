@@ -90,9 +90,13 @@ Random Forest Regressor---0.851932<br>
 
 Visualizations:
 
--Actual vs. Predicted Plot → Most points near diagonal = good predictions.<br>
--Residuals Plot → Errors scattered randomly = unbiased model.
 
+![Actual vs Predicted Value](images/ActualVsPredicted.png)
+<br>
+
+-Actual vs. Predicted Plot → Most points near diagonal = good predictions.<br>
+
+-Residuals Plot → Errors scattered randomly = unbiased model.
 
 ---
 <h2><a class="anchor" id="Actual-vs-Predicted-table"></a>Actual vs Predicted table</h2>
@@ -104,7 +108,7 @@ Visualizations:
 -Difference (error)
 
 ---
-<h2><a class="anchor" id="conclusion"></a>Conclusion"</h2>
+<h2><a class="anchor" id="conclusion"></a>Conclusion</h2>
 
 -Model Accuracy: Linear Regression predicted scores with 88.04% accuracy.
 
